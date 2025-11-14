@@ -1,0 +1,79 @@
+# class mersides:
+#     def __init__(self,madel,rang):
+#         self.madel=madel
+#         self.rang=rang
+#     def get_info(self):
+#         return f"mashina madeli {self.madel} va mashina rangi {self.rang}"
+# class Avto(mersides):
+#     def __init__(self, madel, rang,yil):
+#         super().__init__(madel, rang)
+#         self.yil=yil
+#     def info(self):
+#         return f"self {self.get_info()}va uning yili {self.yil}"
+# a=Avto("mersides","qora",2021)
+# print(a.info())
+
+
+# class bola:
+#     def __init__(self,maktab):
+#            self.makatb=maktab
+#     def get_info(self):
+#           return f'maktab nomi:{self.makatb}'
+# class ota:
+#       def __init__(self,maktab,ism,yosh):
+#             super().__init__(maktab)
+#             self.ism=ism
+#             self.yosh=yosh
+#       def info(self):
+#           return f"{self.get_info()} va uning ismi {self.ism} va yoshi {self.yosh}"
+# bola_1=ota("1-son","salimbek","14")
+# print(bola_1.info())
+
+                        
+# class avto:
+#     def __init__(self,madel):
+#         self.madel=madel
+#     def info(self):
+#         return f"avto madel {self.madel}"
+# class bola:
+#     def __init__ (self,madel,probeg):
+#         super().__init__(madel)
+#         self.probeg=probeg
+#     def get_info(self):
+#         return f"mashina madeli:{self.madel} mashina prabegi {self.probeg}" 
+# car=bola("malibu","1000")
+# print(car.get_info())
+
+
+# class talaba:
+#     def __init__(self,t,s,malumot):
+#         self.t=t
+#         self.s=s
+#         self.malumot=malumot
+#     def info(self):
+#         return f"talaba ismi:{self.t} talaba tugilgani {self.s} u haqida malumot:{self.malumot}"
+# class bakalavr(talaba):
+#     def __init__(self, t, s,malumot,kursi):
+#         super().__init__(t, s, malumot)
+#         self.kursi=kursi
+#     def get_info(self):
+#         return f"talaba ismi:{self.t} talaba tugilgani {self.s} u haqida malumot:{self.malumot} va uning kursi:{self.kursi}"
+# tal=bakalavr("nizomjon","23.43.4321","jshahj","3-kurs")
+# print(tal.get_info())
+
+# class ustoz:
+#     def __init__(self,ism,familya):
+#         self.ism=ism
+#         self.familya=familya
+#     def info(self):
+#         return f"ustoz ning ismi:{self.ism} ustozni  familyasi:{self.familya}"
+# class infoustoz(ustoz):
+#     def __init__(self, ism,familya,yosh):
+#         super().__init__(ism,familya)
+#         self.yosh=yosh
+#     def get_info(self):
+#         return f"ustozning ismi:{self.ism} ustozning famiyasi:{self.familya} va ustozning yoshi:{self.yosh}"
+# us=infoustoz("ibrohim","abduganim","21")
+# print(us.get_info())
+
+        

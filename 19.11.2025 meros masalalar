@@ -1,0 +1,433 @@
+# class mersides:
+#     def __init__(self,madel,rang):
+#         self.madel=madel
+#         self.rang=rang
+#     def get_info(self):
+#         return f"mashina madeli {self.madel} va mashina rangi {self.rang}"
+# class Avto(mersides):
+#     def __init__(self, madel, rang,yil):
+#         super().__init__(madel, rang)
+#         self.yil=yil
+#     def info(self):
+#         return f"self {self.get_info()}va uning yili {self.yil}"
+# a=Avto("mersides","qora",2021)
+# print(a.info())
+
+
+# class bola:
+#     def __init__(self,maktab):
+#            self.makatb=maktab
+#     def get_info(self):
+#           return f'maktab nomi:{self.makatb}'
+# class ota:
+#       def __init__(self,maktab,ism,yosh):
+#             super().__init__(maktab)
+#             self.ism=ism
+#             self.yosh=yosh
+#       def info(self):
+#           return f"{self.get_info()} va uning ismi {self.ism} va yoshi {self.yosh}"
+# bola_1=ota("1-son","salimbek","14")
+# print(bola_1.info())
+
+                        
+# class avto:
+#     def __init__(self,madel):
+#         self.madel=madel
+#     def info(self):
+#         return f"avto madel {self.madel}"
+# class bola:
+#     def __init__ (self,madel,probeg):
+#         super().__init__(madel)
+#         self.probeg=probeg
+#     def get_info(self):
+#         return f"mashina madeli:{self.madel} mashina prabegi {self.probeg}" 
+# car=bola("malibu","1000")
+# print(car.get_info())
+
+
+# class talaba:
+#     def __init__(self,t,s,malumot):
+#         self.t=t
+#         self.s=s
+#         self.malumot=malumot
+#     def info(self):
+#         return f"talaba ismi:{self.t} talaba tugilgani {self.s} u haqida malumot:{self.malumot}"
+# class bakalavr(talaba):
+#     def __init__(self, t, s,malumot,kursi):
+#         super().__init__(t, s, malumot)
+#         self.kursi=kursi
+#     def get_info(self):
+#         return f"talaba ismi:{self.t} talaba tugilgani {self.s} u haqida malumot:{self.malumot} va uning kursi:{self.kursi}"
+# tal=bakalavr("nizomjon","23.43.4321","jshahj","3-kurs")
+# print(tal.get_info())
+
+# class ustoz:
+#     def __init__(self,ism,familya):
+#         self.ism=ism
+#         self.familya=familya
+#     def info(self):
+#         return f"ustoz ning ismi:{self.ism} ustozni  familyasi:{self.familya}"
+# class infoustoz(ustoz):
+#     def __init__(self, ism,familya,yosh):
+#         super().__init__(ism,familya)
+#         self.yosh=yosh
+#     def get_info(self):
+#         return f"ustozning ismi:{self.ism} ustozning famiyasi:{self.familya} va ustozning yoshi:{self.yosh}"
+# us=infoustoz("ibrohim","abduganim","21")
+# print(us.get_info())
+
+# class texnika:
+#     def __init__(self,kampyuter):
+#         self.kampyuter=kampyuter
+#     def 
+
+# class Ota:
+#     def __init__(self,superi):
+#         self.superi=superi
+#     def info(self):
+#         return f"super qilas:{self.superi}"
+# class bola(Ota):
+#     def __init__(self, superi,qoshimcha):
+#         super().__init__(superi)
+#         self.qoshimcha=qoshimcha
+#     def get_info(self):
+#         return f"super qilas:{self.superi} va unga qoshimcha {self.qoshimcha}"         
+# io=bola("salom","super qilas")
+# print(io.get_info())
+
+
+# class shaxs:
+#     def __init__(self,oqtuv):
+#         self.oqtuv=oqtuv
+#     def info(self):
+#         return f'oqtuvchi ismi{self.oqtuv}'
+# class oqtuvchi(shaxs):
+#     def __init__(self, oqtuv,ismi):
+#         super().__init__(oqtuv)
+#         self.ismi=ismi
+#     def get_info(self):
+#         return f"oqtuvchiu ismi {self.oqtuv} va ismi {self.ismi}"
+# pr=oqtuvchi('nurbek',"zafar")
+# print(pr.get_info())
+
+        
+# class uchuvchi:
+#     def __init__(self,uch):
+#         self.uch=uch
+#     def info(self):
+#         return f"malumot uchuv {self.uch}"
+# class haruchuvchi(uchuvchi):
+#     def __init__(self, uch):
+#         super().__init__(uch)
+#     def get(self):
+#         return f"malumot uchuv{self.uch}"
+# uc=haruchuvchi('uchuvchi harbiy')
+# print(uc.get())
+    
+# class kitob:
+#     def __init__(self,kitobi):
+#         self.kitobi=kitobi
+#     def malumot(self):
+#         return f"kitob malumotlari {self.kitobi}"
+# class darslik(kitob):
+#     def __init__(self, kitobi):
+#         super().__init__(kitobi)
+#     def malum(self):
+#         return f"kitob malumotlari {self.kitobi}"
+    
+                
+
+
+# class qurilma:
+#     def __init__(self,rangi):
+#         self.rangi=rangi
+#     def malumot(self):
+#         return f"telefon rangi{self.rangi}"
+# class telefon(qurilma):
+#     def __init__(self, madeli,rangi):
+#         super().__init__(rangi)
+#         self.madel=madeli
+#     def malum(self):
+#         return f"telefon madeli {self.madel} va telefon rangi {self.rangi}"
+# tel=telefon('iphone',"oq")
+# print(tel.malum())   
+        
+
+# class kampaniya:
+#     def __init__(self,mahsulot_nomi,sanasi,mahsulot):
+#         self.mahsulot_nomi=mahsulot_nomi
+#         self.sanasi=sanasi
+#     def info(self):
+#         return f"kampanyaning chiqargan mahsuloti:{self.mahsulot_nomi} va mahsulot sanasi:{self.sanasi} "
+# class add_mahsulot(kampaniya):
+#     def __init__(self, mahsulot_nomi, sanasi,jihozlar,yangi_mahsulotlar):
+#         super().__init__(mahsulot_nomi, sanasi)
+#         self.jihozlar=jihozlar
+#         self.yangi_mahsulotlar=yangi_mahsulotlar
+#     def get(self):
+#         return f"kampanyaning mahsulotining nomi:{self.mahsulot_nomi} mahsulotning chiqarilgan sanasi:{self.sanasi}  va \nzavodga kerak bolgan jihozlar:{self.jihozlar} va ynagi mahsulotlar:{self.yangi_mahsulotlar}"
+# kamp=add_mahsulot("mahs","21.06.2026","qogozlar","yangi")
+# print(kamp.get())
+
+
+
+
+
+# class Ota:
+#     def __init__(self, ism, yosh, kasb):
+#         self.ism = ism
+#         self.yosh = yosh
+#         self.kasb = kasb
+
+#     def malumot(self):
+#         return f"{self.ism}, {self.yosh} yosh, kasbi: {self.kasb}"
+
+# class Bola(Ota):
+#     def __init__(self, ism, yosh, kasb, sinf, sevimli_mashgulot):
+#         super().__init__(ism, yosh, kasb)
+#         self.sinf = sinf
+#         self.sevimli_mashgulot = sevimli_mashgulot
+
+#     def malumot(self):
+#         return f"{super().malumot()}, sinf: {self.sinf}, sevimli mashg'ulot: {self.sevimli_mashgulot}"
+
+# bol=Bola("swalimbek",15,"oquvchi",7,"bosh")
+# print(bol.malumot())
+
+
+
+
+
+
+# class Transport:
+#     def __init__(self, nomi, tezlik):
+#         self.nomi = nomi
+#         self.tezlik = tezlik     
+
+#     def info(self):
+#         return f"{self.nomi} - tezlik: {self.tezlik} km"
+
+# class Avtobus(Transport):
+#     def __init__(self, nomi, tezlik,haydovchi):
+#         super().__init__(nomi, tezlik)
+#         self.haydovchi = haydovchi
+
+#     def info(self):
+#         return f"{super().info()}, haydovchi: {self.haydovchi}"
+
+# class Poyezd(Transport):
+#     def __init__(self, nomi, tezlik,vagonlar_soni):
+#         super().__init__(nomi, tezlik)
+#         self.vagonlar_soni = vagonlar_soni
+
+#     def info(self):
+#         return f"{super().info()}, vagonlar soni: {self.vagonlar_soni}"
+
+#avt = Avtobus('Ikarus', 80, 50, 'Rustam')
+#poy = Poyezd('Afrosiyob', 220, 500, 10)
+#print(avt.info())
+#print(poy.info())
+
+
+
+
+
+# class Shaxs:
+#     def __init__(self, ism, yosh):
+#         self.ism = ism
+#         self.yosh = yosh
+
+#     def info(self):
+#         return f"{self.ism}, {self.yosh} yosh"
+
+# class Talaba(Shaxs):
+#     def __init__(self, ism, yosh, universitet):
+#         super().__init__(ism, yosh)
+#         self.universitet = universitet
+
+#     def info(self):
+#         return f"{super().info()}, universitet: {self.universitet}"
+
+# class Oqituvchi(Shaxs):
+#     def __init__(self, ism, yosh, fan):
+#         super().__init__(ism, yosh)
+#         self.fan = fan
+
+#     def info(self):
+#         return f"{super().info()}, fani: {self.fan}"
+# talaba = Talaba('salimbek', 15, 'ingliz  tili')
+# oqituvchi = Oqituvchi('niozom', 15, 'Matematika')
+# print(talaba.info())
+# print(oqituvchi.info())
+
+
+
+
+
+# class Maxsulot:
+#     def __init__(self, nomi, narx):
+#         self.nomi = nomi
+#         self.narx = narx
+
+#     def info(self):
+#         return f"{self.nomi} - {self.narx} so'm"
+
+# class Meva(Maxsulot):
+#     def __init__(self, nomi, narx, rang):
+#         super().__init__(nomi, narx)
+#         self.rang = rang
+
+#     def info(self):
+#         return f"{super().info()}, rangi: {self.rang}"
+#meva = Meva('Olma', 1000, 'Qizil')
+#print(meva.info())
+
+
+
+
+
+# class Bino:
+#     def __init__(self, manzil, qavat):
+#         self.manzil = manzil
+#         self.qavat = qavat
+
+#     def info(self):
+#         return f"Manzil: {self.manzil}, Qavat: {self.qavat}"
+
+
+# class Uy(Bino):
+#     def __init__(self, manzil, qavat, xonalar):
+#         super().__init__(manzil, qavat)
+#         self.xonalar = xonalar
+
+#     def info(self):
+#         return f"{super().info()}, Xonalar: {self.xonalar}"
+
+#     def joylashuv(self):
+#         return f"Uy {self.manzil} manzilda joylashgan."
+# #uy = Uy('Toshkent', 2, 5)
+# #print(uy.info())
+# #print(uy.joylashuv())
+
+
+
+
+# class Ota:
+#     def __init__(self, ism):
+#         self.ism = ism
+#     def salom(self):
+#         return f"Salom, men {self.ism}man."
+
+# class Bola(Ota):
+#     def __init__(self, ism, yosh):
+#         super().__init__(ism)
+#         self.yosh = yosh
+#     def salom(self):
+#         return super().salom() + f" Men {self.yosh} yoshdaman."
+# #bolay = Bola('Hasan', 10)
+# #print(bolay.salom())
+
+
+
+# class Kitob:
+#     def __init__(self, nomi, muallif):
+#         self.nomi = nomi
+#         self.muallif = muallif
+#     def info(self):
+#         return f"{self.nomi} - {self.muallif}"
+
+# class ElektronKitob(Kitob):
+#     def __init__(self, nomi, muallif, format):
+#         super().__init__(nomi, muallif)
+#         self.format = format
+#     def info(self):
+#         return f"{super().info()}, format: {self.format}"
+
+# #elektron_kitob = ElektronKitob('Python Dasturlash', 'Ali Akbar', 'PDF')
+# #print(elektron_kitob.info())
+
+
+
+
+
+# class Mashina:
+#     def __init__(self, model, yil):
+#         self.model = model
+#         self.yil = yil
+#     def info(self):
+#         return f"{self.model}, {self.yil}"
+
+# class ElektroAvto(Mashina):
+#     def __init__(self, model, yil, batareya):
+#         super().__init__(model, yil)
+#         self.batareya = batareya
+#     def info(self):
+#         return f"{super().info()}, batareya: {self.batareya} kWh"
+
+
+# #elektro_avto = ElektroAvto('Tesla Model 3', 2020, 50)
+# #print(elektro_avto.info())
+
+
+# class Hayvon:
+#     def __init__(self, nomi, turi):
+#         self.nomi = nomi
+#         self.turi = turi
+#     def info(self):
+#         return f"{self.nomi} ({self.turi})"
+
+# class Qush(Hayvon):
+#     def __init__(self, nomi, turi, uzunligi):
+#         super().__init__(nomi, turi)
+#         self.uzunligi = uzunligi
+#     def get(self):
+#         return f"{self.nomi} {self.uzunligi} sm qush."
+    
+#qush = Qush('Qaldirg'och', 'uylarda yashovchi', 20)
+#print(qush.info())
+#print(qush.get())
+
+
+# class maktab:
+#     def __init__(self,maktab_nomi,hona_soni):
+#         self.maktab_nomi=maktab_nomi
+#         self.hona_soni=hona_soni
+#     def info(self):
+#         return f"makatab soni:{self.maktab_nomi},maktabdagi \nhonalar soni:{self.hona_soni}"
+# class sinf(maktab):
+#     def __init__(self, maktab_nomi, hona_soni,sinflar):
+#         super().__init__(maktab_nomi, hona_soni)
+#         self.sinflar=sinflar
+#     def get(self):
+#         return f"{super().info()}, va sinflar soni:{self.sinflar}"
+# sn=sinf('Litsey','29','25')
+# print(sn.get())
+
+# class Avto:
+#     def __init__(self, model, yil, narx):
+#         self.model = model
+#         self.yil = yil
+#         self.narx = narx
+#     def info(self):
+#         return f"{self.model} ({self.yil}) - \n{self.narx} so'm"
+
+# class Mercedes(Avto):
+#     def __init__(self, yil, narx, rang):
+#         super().__init__('Mercedes', yil, narx)
+#         self.rang = rang
+#     def info(self):
+#         return f"{super().info()}, rangi: {self.rang}"
+# class chewrolet(Avto):
+#     def __init__(self, model, yil, narx,mashina_rangi):
+#         super().__init__(model, yil, narx)
+#         self.mashina_rangi=mashina_rangi
+#     def info(self):
+#         return f"{super().info()}, mashina rangi:{self.mashina_rangi}"
+    
+
+
+# mersides=Mercedes("2022","2 000 000 000","qora")
+# Chewrolet=chewrolet("kaptiva","2018","330 000 000","oq")
+# print(mersides.info())
+# print(Chewrolet.info())
+
